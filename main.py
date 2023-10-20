@@ -7,7 +7,7 @@ from kivy.lang import Builder
 from kivy.uix.relativelayout import RelativeLayout
 
 Config.set('graphics', 'width', '900')
-Config.set('graphics', 'height', '400')
+Config.set('kivy', 'log_name', 'Galaxy','graphics', 'height', '400')
 
 
 from kivy import platform
